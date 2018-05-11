@@ -3,21 +3,21 @@
 
 # 飞燕配置
 FEIYAN = {
-    'app_key': '24849450',
-    'app_secret': '558cecf90c4bf99d16adbf02490a7e88',
+    'app_key': '',
+    'app_secret': '',
     'host': 'https://api.link.aliyun.com',
     'grantType': 'project',     # 项目资源：授权类型
-    'res': 'a1248ruzFF44pMTK'   # 项目资源：项目ID
+    'res': ''   # 项目资源：项目ID
 }
 
 
 # 阿里短信服务
 SMS = {
     'default': {
-        'access_key_id': 'LTAI7fpgbIgSBFI3',
-        'access_key_secret': 'jIFUeOF2HatwFeG8xpOPLMHhFRtGK5',
-        'sign_name': '镨安顿',
-        'template_code': 'SMS_114595014',
+        'access_key_id': '',
+        'access_key_secret': '',
+        'sign_name': '',
+        'template_code': '',
         'template_param': {'code': None}
     }
 }
