@@ -26,12 +26,10 @@
 ```
 apt install python3.5
 apt install python3.5-dev
-
 apt install python3-pip
-pip install --upgrade pip
-
 apt install libmysqlclient-dev
 
+pip install --upgrade pip
 pip install -r package.txt
 ```
 
