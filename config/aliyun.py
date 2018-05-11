@@ -25,8 +25,8 @@ SMS = {
 # 阿里移动推送服务（不分端）
 PUSH = {
     'default': {
-        'access_key_id': 'xxx',
-        'access_key_secret': 'xxx',
-        'app_key': 'xxx'
+        'access_key_id': '',
+        'access_key_secret': '',
+        'app_key': ''
     }
 }
