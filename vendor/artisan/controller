@@ -1,0 +1,31 @@
+# coding:utf-8
+
+from rest_framework.views import APIView
+from rest_framework.exceptions import APIException
+from app.helpers.api import ApiResponse
+from rest_framework import permissions
+from app.http.serializers.ExampleSerializer import ExampleSerializer, Example
+
+
+class ExampleList(APIView):
+
+    def get(self, request):
+        pass
+
+    def post(self, request):
+        pass
+
+
+class ExampleDetail(APIView):
+
+    def get(self, request, pk):
+        pass
+
+    def put(self, request, pk):
+        pass
+
+    def delete(self, request, pk):
+        pass
+
+
+

@@ -1,0 +1,10 @@
+# coding:utf-8
+
+from app.helpers.utils import hump2underline
+from django.db import models
+from databases.models.AbstractModel import AbstractModel
+
+
+class Example(AbstractModel):
+    class Meta:
+        db_table = hump2underline('Example')
